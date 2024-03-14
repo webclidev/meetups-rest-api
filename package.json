@@ -1,0 +1,29 @@
+{
+  "name": "meetups-rest-api",
+  "version": "1.0.0",
+  "description": "A Node.js REST API for managing meetups, allowing users to create, read, update, and delete meetups.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "REST API",
+    "meetups",
+    "management",
+    "CRUD",
+    "create",
+    "read",
+    "update",
+    "delete"
+  ],
+  "author": "webclidev",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
